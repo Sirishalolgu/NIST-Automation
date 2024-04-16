@@ -1,0 +1,5 @@
+com\cvss\project\pages\EnvironmentScoreMetrics.class
+com\cvss\project\pages\OutputLocators.class
+com\cvss\project\pages\BaseScoreMetricLocators.class
+com\cvss\project\tests\BaseScoreTests.class
+com\cvss\project\tests\BaseClass.class

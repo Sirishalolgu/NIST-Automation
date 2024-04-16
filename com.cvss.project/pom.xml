@@ -1,0 +1,147 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.cvss.project</groupId>
+	<artifactId>com.cvss.project</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<properties>
+		<cucumber.version>7.2.3</cucumber.version>
+		<selenium.version>4.9.0</selenium.version>
+		<webdrivermanager.version>5.4.1</webdrivermanager.version>
+		<testng.version>7.7.1</testng.version>
+		<maven.compiler.plugin.version>3.10.1</maven.compiler.plugin.version>
+		<maven.surefire.plugin.version>3.0.0-M7</maven.surefire.plugin.version>
+		<maven.compiler.source.version>11</maven.compiler.source.version>
+		<maven.compiler.target.version>11</maven.compiler.target.version>
+		<commons.io.version>2.15.1</commons.io.version>
+		<allure.results.directory>target/allure-results</allure.results.directory>
+	</properties>
+
+	<dependencies>
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>${commons.io.version}</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-api -->
+		<dependency>
+
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-api</artifactId>
+			<version>2.17.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+		<dependency>
+			<groupId>org.apache.logging.log4j</groupId>
+			<artifactId>log4j-core</artifactId>
+			<version>2.17.1</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.27.0</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-maven -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-maven</artifactId>
+			<version>2.12.0</version>
+		</dependency>
+
+
+		<!-- Cucumber with Java Dependency -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>7.2.3</version>
+		</dependency>
+
+		<!-- Cucumber with TestNG Dependency -->
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-testng</artifactId>
+			<version>7.2.3</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Selenium Dependency -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.9.0</version>
+		</dependency>
+
+		<!-- Web Driver Manager Dependency -->
+		<dependency>
+			<groupId>io.github.bonigarcia</groupId>
+			<artifactId>webdrivermanager</artifactId>
+			<version>5.5.3</version>
+		</dependency>
+
+		<!-- TestNG Dependency -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.7.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${maven.compiler.plugin.version}</version>
+					<configuration>
+						<source>${maven.compiler.source.version}</source>
+						<target>${maven.compiler.target.version}</target>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>3.0.2</version>
+					<configuration>
+						<outputDirectory>target</outputDirectory>
+						<testResources>
+							<resource>
+								<directory>com.cvss.project/src/test/resources</directory>
+							</resource>
+						</testResources>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>${maven.surefire.plugin.version}</version>
+					<configuration>
+						<!-- <testClassesDirectory>s360UIAutomationCC/src/main/java</testClassesDirectory> -->
+						<testSourceDirectory>com.cvss.project/src/test/java</testSourceDirectory>
+						<includes>
+							<include>**/*BaseScoreTests.java</include>
+						</includes>
+						<systemPropertyVariables>
+							<propertyName>allure.results.directory</propertyName>
+							<buildDirectory>${project.basedir}/target/allure-results</buildDirectory>
+
+						</systemPropertyVariables>
+					</configuration>
+				</plugin>
+				<plugin>
+					<groupId>io.qameta.allure</groupId>
+					<artifactId>allure-maven</artifactId>
+					<version>2.12.0</version>
+					<configuration>
+						<reportDirectory>${project.basedir}/target/allure-reports</reportDirectory>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+</project>

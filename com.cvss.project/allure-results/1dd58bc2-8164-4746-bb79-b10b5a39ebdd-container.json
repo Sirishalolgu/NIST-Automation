@@ -1,0 +1,1 @@
+{"uuid":"1dd58bc2-8164-4746-bb79-b10b5a39ebdd","name":"Surefire test","children":["549c2f58-4e5f-4dcc-bc04-d59af45d6af4"],"befores":[],"afters":[{"name":"teardown","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1713161199236,"stop":1713161199817}],"start":1713161172186,"stop":1713161199817}

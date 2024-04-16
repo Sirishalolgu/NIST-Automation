@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.cvss.project.tests.BaseScoreTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.948 s - in com.cvss.project.tests.BaseScoreTests
