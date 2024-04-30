@@ -33,7 +33,6 @@ public class BaseScoreTests extends BaseClass {
 		output = new OutputLocators(driver);
 		logger.info("Testing.....");
 		bScoreMet.loopOver(numOfLoops);
-		output.getScoresAndVector();
 
 		logger.info("Done...");
 

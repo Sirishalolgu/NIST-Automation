@@ -147,7 +147,8 @@ public class BaseScoreMetricLocators {
 	WebElement confiRRR;
 
 	// a[starts-with(@href,'/vuln-metrics/cvss/v2-calculator?vector=')]
-	@FindBy(xpath = "//a[starts-with(@href,'/vuln-metrics/cvss/v2-calculator?vector=')]")
+	//@FindBy(xpath = "//a[starts-with(@href,'/vuln-metrics/cvss/v2-calculator?vector=')]")
+	@FindBy(id="cvss-v2-vector-cell")
 	WebElement vector;
 
 	// dd[@id='cvss-base-score-cell']
@@ -158,7 +159,18 @@ public class BaseScoreMetricLocators {
 	@FindBy(xpath = "//dd[@id='cvss-temporal-score-cell']")
 	WebElement tempScore;
 
-	
+	public void getScoresAndVector() {
+
+		//JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		//js.executeScript("arguments[0].click();", vector);
+		
+		System.out.println("Vector: "+ vector.getText());
+		System.out.println("BaseScore: "+baseScore.getText());
+		System.out.println("TempScore: "+ tempScore.getText());
+
+		
+	}
 	public static List<List<String>> addBaseScoreWebelementToList() {
 
 		List<List<String>> result = new ArrayList<List<String>>();
@@ -189,31 +201,31 @@ public class BaseScoreMetricLocators {
 		list3.add(SINGLE_AU);
 		list3.add(NONE_AU);
 
-		list4.add(NONE_CN);
+		//list4.add(NONE_CN);
 		list4.add(PARTIAL_CP);
 		list4.add(COMPLETE_CC);
 
-		list5.add(NONE_IN);
+		//list5.add(NONE_IN);
 		list5.add(PARTIAL_IP);
 		list5.add(COMPLETE_IC);
 
-		list6.add(NONE_AN);
+		//list6.add(NONE_AN);
 		list6.add(PARTIAL_AP);
 		list6.add(COMPLETE_AC);
 
-		list7.add(NOTDEFIN_END);
+	//	list7.add(NOTDEFIN_END);
 		list7.add(UNPROVEN_EU);
 		list7.add(PROOF_EPOC);
 		list7.add(FUNCTIONAL_EPOC);
 		list7.add(HIGH_EH);
 
-		list8.add(NOTDEFIN_RL);
+		//list8.add(NOTDEFIN_RL);
 		list8.add(OFFICIAL_RLOF);
 		list8.add(TEMPORY_RL);
 		list8.add(WRK_RL);
 		list8.add(UNAV_RL);
 
-		list9.add(NOTDEFIN_RC);
+	//	list9.add(NOTDEFIN_RC);
 		list9.add(UNCON_RUC);
 		list9.add(UNCORR_RUR);
 		list9.add(CONFI_RRR);
@@ -257,26 +269,39 @@ public class BaseScoreMetricLocators {
 
 	public void loopOver(int numOfLoops) {
 		List<List<String>> lists = addBaseScoreWebelementToList();
-		int count = 0;
+		int count = 1;
 		logger.info("running the combinations till "+ numOfLoops);
+		System.out.println("lists size - "+ lists.size());
 		for (List<String> innerlist : lists) {
+			if(count >= numOfLoops) {
+				break;
+			}
+			logger.debug("innerlist size - "+ innerlist.size());
 			for (String elementStr : innerlist) {
-				if(count >= numOfLoops) {
-					break;
-				}
+				
 				
 				JavascriptExecutor js = (JavascriptExecutor) driver;
 				WebElement webElement =  getWebElementByStr(elementStr);
 				if(webElement != null) {
 				js.executeScript("arguments[0].click();", webElement);
-                logger.debug("clicked on webelement...");
+				
+				logger.debug("clicked on webelement...");
+                
+                
 				}
 				else {
 					logger.info("element not found");
 				}
 
-				count++;
 			}
+			System.out.println("Iteration: "+ count);
+
+			System.out.println("Vector: "+ vector.getText());
+			System.out.println("BaseScore: "+baseScore.getText());
+			System.out.println("TempScore: "+ tempScore.getText());
+			count++;
+			System.out.println("count incrementd");
+
 		}
 	}
 

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cvss.project.tests.BaseScoreTests" time="11.948" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.cvss.project.tests.BaseScoreTests" time="54.875" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
-    <property name="webdriver.chrome.driver" value="C:\Users\cnudr\.cache\selenium\chromedriver\win64\123.0.6312.122\chromedriver.exe"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\cnudr\.cache\selenium\chromedriver\win64\124.0.6367.91\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\cnudr\eclipse-ninja\com.cvss.project\target\test-classes;C:\Users\cnudr\eclipse-ninja\com.cvss.project\target\classes;C:\Users\cnudr\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\cnudr\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\cnudr\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-maven\2.12.0\allure-maven-2.12.0.jar;C:\Users\cnudr\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cnudr\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cnudr\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cnudr\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\cnudr\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\cnudr\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-plugin-api\3.8.6\maven-plugin-api-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.1\plexus-utils-3.3.1.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-core\3.8.6\maven-core-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-model\3.8.6\maven-model-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-settings\3.8.6\maven-settings-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-settings-builder\3.8.6\maven-settings-builder-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-builder-support\3.8.6\maven-builder-support-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-repository-metadata\3.8.6\maven-repository-metadata-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-artifact\3.8.6\maven-artifact-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-model-builder\3.8.6\maven-model-builder-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-resolver-provider\3.8.6\maven-resolver-provider-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\resolver\maven-resolver-impl\1.6.3\maven-resolver-impl-1.6.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.6.3\maven-resolver-api-1.6.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\resolver\maven-resolver-spi\1.6.3\maven-resolver-spi-1.6.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.6.3\maven-resolver-util-1.6.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\cnudr\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\cnudr\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\cnudr\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\cnudr\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\cnudr\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\cnudr\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.0.0\maven-reporting-impl-3.0.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.7\doxia-sink-api-1.7.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.7\doxia-logging-api-1.7.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.7.4\doxia-decoration-model-1.7.4.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-core\1.7\doxia-core-1.7.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-30\plexus-container-default-1.0-alpha-30.jar;C:\Users\cnudr\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\cnudr\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\cnudr\.m2\repository\xmlunit\xmlunit\1.5\xmlunit-1.5.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.7.4\doxia-site-renderer-1.7.4.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.7.4\doxia-skin-model-1.7.4.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.7\doxia-module-xhtml-1.7.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\cnudr\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\cnudr\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\cnudr\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\cnudr\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\cnudr\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\cnudr\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\cnudr\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\cnudr\.m2\repository\sslext\sslext\1.2-0\sslext-1.2-0.jar;C:\Users\cnudr\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;C:\Users\cnudr\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;C:\Users\cnudr\.m2\repository\org\apache\struts\struts-taglib\1.3.8\struts-taglib-1.3.8.jar;C:\Users\cnudr\.m2\repository\org\apache\struts\struts-tiles\1.3.8\struts-tiles-1.3.8.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.0\maven-common-artifact-filters-3.1.0.jar;C:\Users\cnudr\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\cnudr\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\cnudr\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\cnudr\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\cnudr\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\cnudr\.m2\repository\net\lingala\zip4j\zip4j\1.3.3\zip4j-1.3.3.jar;C:\Users\cnudr\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.7.0\maven-plugin-annotations-3.7.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\plugins\maven-jxr-plugin\3.3.0\maven-jxr-plugin-3.3.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-jxr\3.3.0\maven-jxr-3.3.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.8\wagon-provider-api-2.8.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\cnudr\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\cnudr\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\cnudr\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\cnudr\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\cnudr\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\cnudr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.0\selenium-java-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.0\selenium-api-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.0\selenium-chrome-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\cnudr\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\cnudr\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\cnudr\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\cnudr\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\cnudr\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\cnudr\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\cnudr\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\cnudr\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\cnudr\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.0\selenium-chromium-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.0\selenium-json-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.0\selenium-manager-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.9.0\selenium-devtools-v110-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.0\selenium-devtools-v111-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.0\selenium-devtools-v112-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.0\selenium-devtools-v85-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.0\selenium-edge-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.0\selenium-firefox-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.0\selenium-http-4.9.0.jar;C:\Users\cnudr\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.0\selenium-ie-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.0\selenium-remote-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\cnudr\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\cnudr\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\cnudr\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\cnudr\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\cnudr\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\cnudr\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.0\selenium-safari-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.0\selenium-support-4.9.0.jar;C:\Users\cnudr\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\cnudr\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\cnudr\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\cnudr\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\cnudr\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\cnudr\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\cnudr\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\cnudr\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\cnudr\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\cnudr\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\cnudr\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\cnudr\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cnudr\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Users\cnudr\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\cnudr\AppData\Local\Temp\surefire1127677729286432640\surefirebooter-20240414234140950_3.jar C:\Users\cnudr\AppData\Local\Temp\surefire1127677729286432640 2024-04-14T23-41-40_385-jvmRun1 surefire-20240414234140950_1tmp surefire_0-20240414234140950_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\cnudr\AppData\Local\Temp\surefire15300564504047895869\surefirebooter-20240427172437655_3.jar C:\Users\cnudr\AppData\Local\Temp\surefire15300564504047895869 2024-04-27T17-24-37_153-jvmRun1 surefire-20240427172437655_1tmp surefire_0-20240427172437655_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\cnudr\eclipse-ninja\com.cvss.project\target\test-classes;C:\Users\cnudr\eclipse-ninja\com.cvss.project\target\classes;C:\Users\cnudr\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\cnudr\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\cnudr\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-testng\2.27.0\allure-testng-2.27.0.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-java-commons\2.27.0\allure-java-commons-2.27.0.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-model\2.27.0\allure-model-2.27.0.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-test-filter\2.27.0\allure-test-filter-2.27.0.jar;C:\Users\cnudr\.m2\repository\io\qameta\allure\allure-maven\2.12.0\allure-maven-2.12.0.jar;C:\Users\cnudr\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\cnudr\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\cnudr\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\cnudr\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.0\jackson-databind-2.14.0.jar;C:\Users\cnudr\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.0\jackson-annotations-2.14.0.jar;C:\Users\cnudr\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.0\jackson-core-2.14.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-plugin-api\3.8.6\maven-plugin-api-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-utils\3.3.1\plexus-utils-3.3.1.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.6.0\plexus-classworlds-2.6.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-core\3.8.6\maven-core-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-model\3.8.6\maven-model-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-settings\3.8.6\maven-settings-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-settings-builder\3.8.6\maven-settings-builder-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-sec-dispatcher\2.0\plexus-sec-dispatcher-2.0.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-cipher\2.0\plexus-cipher-2.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-builder-support\3.8.6\maven-builder-support-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-repository-metadata\3.8.6\maven-repository-metadata-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-artifact\3.8.6\maven-artifact-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-model-builder\3.8.6\maven-model-builder-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-resolver-provider\3.8.6\maven-resolver-provider-3.8.6.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\resolver\maven-resolver-impl\1.6.3\maven-resolver-impl-1.6.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.6.3\maven-resolver-api-1.6.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\resolver\maven-resolver-spi\1.6.3\maven-resolver-spi-1.6.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.6.3\maven-resolver-util-1.6.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\cnudr\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.plexus\0.3.5\org.eclipse.sisu.plexus-0.3.5.jar;C:\Users\cnudr\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\cnudr\.m2\repository\org\eclipse\sisu\org.eclipse.sisu.inject\0.3.5\org.eclipse.sisu.inject-0.3.5.jar;C:\Users\cnudr\.m2\repository\com\google\inject\guice\4.2.2\guice-4.2.2-no_aop.jar;C:\Users\cnudr\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\cnudr\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.26\plexus-interpolation-1.26.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-component-annotations\2.1.0\plexus-component-annotations-2.1.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\3.0.0\maven-reporting-impl-3.0.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.7\doxia-sink-api-1.7.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-logging-api\1.7\doxia-logging-api-1.7.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.7.4\doxia-decoration-model-1.7.4.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-core\1.7\doxia-core-1.7.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-30\plexus-container-default-1.0-alpha-30.jar;C:\Users\cnudr\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\cnudr\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\cnudr\.m2\repository\xmlunit\xmlunit\1.5\xmlunit-1.5.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.7.4\doxia-site-renderer-1.7.4.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-skin-model\1.7.4\doxia-skin-model-1.7.4.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.7\doxia-module-xhtml-1.7.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-velocity\1.2\plexus-velocity-1.2.jar;C:\Users\cnudr\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\cnudr\.m2\repository\org\apache\velocity\velocity-tools\2.0\velocity-tools-2.0.jar;C:\Users\cnudr\.m2\repository\commons-digester\commons-digester\1.8\commons-digester-1.8.jar;C:\Users\cnudr\.m2\repository\commons-chain\commons-chain\1.1\commons-chain-1.1.jar;C:\Users\cnudr\.m2\repository\commons-validator\commons-validator\1.3.1\commons-validator-1.3.1.jar;C:\Users\cnudr\.m2\repository\dom4j\dom4j\1.1\dom4j-1.1.jar;C:\Users\cnudr\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\cnudr\.m2\repository\sslext\sslext\1.2-0\sslext-1.2-0.jar;C:\Users\cnudr\.m2\repository\org\apache\struts\struts-core\1.3.8\struts-core-1.3.8.jar;C:\Users\cnudr\.m2\repository\antlr\antlr\2.7.2\antlr-2.7.2.jar;C:\Users\cnudr\.m2\repository\org\apache\struts\struts-taglib\1.3.8\struts-taglib-1.3.8.jar;C:\Users\cnudr\.m2\repository\org\apache\struts\struts-tiles\1.3.8\struts-tiles-1.3.8.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\shared\maven-artifact-transfer\0.13.1\maven-artifact-transfer-0.13.1.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.1.0\maven-common-artifact-filters-3.1.0.jar;C:\Users\cnudr\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\cnudr\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\cnudr\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\cnudr\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\cnudr\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\cnudr\.m2\repository\net\lingala\zip4j\zip4j\1.3.3\zip4j-1.3.3.jar;C:\Users\cnudr\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\plugin-tools\maven-plugin-annotations\3.7.0\maven-plugin-annotations-3.7.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\plugins\maven-jxr-plugin\3.3.0\maven-jxr-plugin-3.3.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\maven-jxr\3.3.0\maven-jxr-3.3.0.jar;C:\Users\cnudr\.m2\repository\org\apache\maven\wagon\wagon-provider-api\2.8\wagon-provider-api-2.8.jar;C:\Users\cnudr\.m2\repository\org\codehaus\plexus\plexus-java\1.1.1\plexus-java-1.1.1.jar;C:\Users\cnudr\.m2\repository\org\ow2\asm\asm\9.2\asm-9.2.jar;C:\Users\cnudr\.m2\repository\com\thoughtworks\qdox\qdox\2.0.1\qdox-2.0.1.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-java\7.2.3\cucumber-java-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-core\7.2.3\cucumber-core-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-gherkin\7.2.3\cucumber-gherkin-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.2.3\cucumber-gherkin-messages-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\cnudr\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-expressions\15.0.1\cucumber-expressions-15.0.1.jar;C:\Users\cnudr\.m2\repository\io\cucumber\datatable\7.2.3\datatable-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-plugin\7.2.3\cucumber-plugin-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\docstring\7.2.3\docstring-7.2.3.jar;C:\Users\cnudr\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\cnudr\.m2\repository\io\cucumber\ci-environment\8.1.0\ci-environment-8.1.0.jar;C:\Users\cnudr\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\cnudr\.m2\repository\io\cucumber\cucumber-testng\7.2.3\cucumber-testng-7.2.3.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-java\4.9.0\selenium-java-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-api\4.9.0\selenium-api-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.9.0\selenium-chrome-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\cnudr\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\cnudr\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\cnudr\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\cnudr\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\cnudr\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\cnudr\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\cnudr\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\cnudr\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\cnudr\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.9.0\selenium-chromium-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-json\4.9.0\selenium-json-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.9.0\selenium-manager-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.9.0\selenium-devtools-v110-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v111\4.9.0\selenium-devtools-v111-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v112\4.9.0\selenium-devtools-v112-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.9.0\selenium-devtools-v85-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.9.0\selenium-edge-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.9.0\selenium-firefox-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-http\4.9.0\selenium-http-4.9.0.jar;C:\Users\cnudr\.m2\repository\dev\failsafe\failsafe\3.3.1\failsafe-3.3.1.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.9.0\selenium-ie-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.9.0\selenium-remote-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-buffer\4.1.91.Final\netty-buffer-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-codec-http\4.1.91.Final\netty-codec-http-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-codec\4.1.91.Final\netty-codec-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-handler\4.1.91.Final\netty-handler-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-common\4.1.91.Final\netty-common-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.91.Final\netty-transport-classes-epoll-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.91.Final\netty-transport-classes-kqueue-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-epoll\4.1.91.Final\netty-transport-native-epoll-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.91.Final\netty-transport-native-kqueue-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.91.Final\netty-transport-native-unix-common-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport\4.1.91.Final\netty-transport-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-resolver\4.1.91.Final\netty-resolver-4.1.91.Final.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-api\1.25.0\opentelemetry-api-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-context\1.25.0\opentelemetry-context-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.25.0\opentelemetry-exporter-logging-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.25.0\opentelemetry-sdk-metrics-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.25.0-alpha\opentelemetry-sdk-logs-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.25.0-alpha\opentelemetry-api-logs-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.25.0-alpha\opentelemetry-api-events-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.25.0\opentelemetry-sdk-common-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.25.0\opentelemetry-sdk-extension-autoconfigure-spi-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.25.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.25.0\opentelemetry-sdk-trace-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.25.0\opentelemetry-sdk-1.25.0.jar;C:\Users\cnudr\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\cnudr\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\cnudr\.m2\repository\net\bytebuddy\byte-buddy\1.14.4\byte-buddy-1.14.4.jar;C:\Users\cnudr\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\cnudr\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\cnudr\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\cnudr\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\cnudr\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\cnudr\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.9.0\selenium-safari-driver-4.9.0.jar;C:\Users\cnudr\.m2\repository\org\seleniumhq\selenium\selenium-support\4.9.0\selenium-support-4.9.0.jar;C:\Users\cnudr\.m2\repository\io\github\bonigarcia\webdrivermanager\5.5.3\webdrivermanager-5.5.3.jar;C:\Users\cnudr\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java\3.3.3\docker-java-3.3.3.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java-core\3.3.3\docker-java-core-3.3.3.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java-api\3.3.3\docker-java-api-3.3.3.jar;C:\Users\cnudr\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\cnudr\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.75\bcpkix-jdk18on-1.75.jar;C:\Users\cnudr\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.75\bcprov-jdk18on-1.75.jar;C:\Users\cnudr\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.75\bcutil-jdk18on-1.75.jar;C:\Users\cnudr\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.3\docker-java-transport-httpclient5-3.3.3.jar;C:\Users\cnudr\.m2\repository\com\github\docker-java\docker-java-transport\3.3.3\docker-java-transport-3.3.3.jar;C:\Users\cnudr\.m2\repository\net\java\dev\jna\jna\5.12.1\jna-5.12.1.jar;C:\Users\cnudr\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\cnudr\.m2\repository\org\apache\commons\commons-lang3\3.13.0\commons-lang3-3.13.0.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\cnudr\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\cnudr\.m2\repository\org\testng\testng\7.7.1\testng-7.7.1.jar;C:\Users\cnudr\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\cnudr\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\cnudr\AppData\Local\Temp\surefire1127677729286432640\surefirebooter-20240414234140950_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\cnudr\AppData\Local\Temp\surefire15300564504047895869\surefirebooter-20240427172437655_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.4.1+1"/>
@@ -51,7 +51,7 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\cnudr\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/cnudr/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin/server;C:/Users/cnudr/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Software\apache-maven-3.8.6-bin (1)\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Users\cnudr\AppData\Local\Android\Sdk\tools;C:\Users\cnudr\AppData\Local\Android\Sdk\tools\bin;C:\Users\cnudr\AppData\Local\Android\Sdk\platform-tools;C:\Users\cnudr\AppData\Local\Android\Sdk\platforms;C:\Users\cnudr\AppData\Local\Android\Sdk\build-tools;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\HP\HP One Agent;C:\Users\cnudr\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\cnudr\AppData\Local\Programs\Python\Python310\;C:\Users\cnudr\anaconda3;C:\Users\cnudr\anaconda3\Library\mingw-w64\bin;C:\Users\cnudr\anaconda3\Library\usr\bin;C:\Users\cnudr\anaconda3\Library\bin;C:\Users\cnudr\anaconda3\Scripts;C:\Users\cnudr\AppData\Local\Microsoft\WindowsApps;C:\Users\cnudr\AppData\Local\Programs\Git\cmd;C:\Users\cnudr\AppData\Local\GitHubDesktop\bin;;C:\Users\cnudr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cnudr\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
+    <property name="java.library.path" value="C:\Users\cnudr\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/cnudr/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin/server;C:/Users/cnudr/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.4.v20220903-1038/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Software\apache-maven-3.8.6-bin (1)\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-11.0.16.1\bin;C:\Users\cnudr\AppData\Local\Android\Sdk\tools;C:\Users\cnudr\AppData\Local\Android\Sdk\tools\bin;C:\Users\cnudr\AppData\Local\Android\Sdk\platform-tools;C:\Users\cnudr\AppData\Local\Android\Sdk\platforms;C:\Users\cnudr\AppData\Local\Android\Sdk\build-tools;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\HP\HP One Agent;C:\Users\cnudr\AppData\Roaming\npm\node_modules\allure-commandline\bin;C:\Users\cnudr\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\cnudr\AppData\Local\Programs\Python\Python310\;C:\Users\cnudr\anaconda3;C:\Users\cnudr\anaconda3\Library\mingw-w64\bin;C:\Users\cnudr\anaconda3\Library\usr\bin;C:\Users\cnudr\anaconda3\Library\bin;C:\Users\cnudr\anaconda3\Scripts;C:\Users\cnudr\AppData\Local\Microsoft\WindowsApps;C:\Users\cnudr\AppData\Local\Programs\Git\cmd;C:\Users\cnudr\AppData\Local\GitHubDesktop\bin;;C:\Users\cnudr\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\cnudr\AppData\Roaming\npm;C:\WINDOWS\system32;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
     <property name="java.vm.version" value="17.0.4.1+1"/>
@@ -60,22 +60,515 @@
     <property name="java.class.version" value="61.0"/>
     <property name="buildDirectory" value="C:\Users\cnudr\eclipse-ninja\com.cvss.project/target/allure-results"/>
   </properties>
-  <testcase name="user_opens_url" classname="com.cvss.project.tests.BaseScoreTests" time="4.469">
-    <system-out><![CDATA[72900
-Vector: (AV:L/AC:H/Au:M/C:N/I:N/A:N/E:ND/RL:TF/RC:UR)
-BaseScore: 0.0
-TempScore: 0.0
+  <testcase name="user_opens_url" classname="com.cvss.project.tests.BaseScoreTests" time="39.43">
+    <system-out><![CDATA[10368
+lists size - 10368
+Iteration: 1
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:OF/RC:UC)
+BaseScore: 3.4
+TempScore: 2.3
+count incrementd
+Iteration: 2
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:OF/RC:UR)
+BaseScore: 3.4
+TempScore: 2.4
+count incrementd
+Iteration: 3
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:OF/RC:C)
+BaseScore: 3.4
+TempScore: 2.5
+count incrementd
+Iteration: 4
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:TF/RC:UC)
+BaseScore: 3.4
+TempScore: 2.3
+count incrementd
+Iteration: 5
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:TF/RC:UR)
+BaseScore: 3.4
+TempScore: 2.5
+count incrementd
+Iteration: 6
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:TF/RC:C)
+BaseScore: 3.4
+TempScore: 2.6
+count incrementd
+Iteration: 7
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:W/RC:UC)
+BaseScore: 3.4
+TempScore: 2.5
+count incrementd
+Iteration: 8
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:W/RC:UR)
+BaseScore: 3.4
+TempScore: 2.6
+count incrementd
+Iteration: 9
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:W/RC:C)
+BaseScore: 3.4
+TempScore: 2.7
+count incrementd
+Iteration: 10
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:U/RC:UC)
+BaseScore: 3.4
+TempScore: 2.6
+count incrementd
+Iteration: 11
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:U/RC:UR)
+BaseScore: 3.4
+TempScore: 2.7
+count incrementd
+Iteration: 12
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:U/RL:U/RC:C)
+BaseScore: 3.4
+TempScore: 2.9
+count incrementd
+Iteration: 13
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:OF/RC:UC)
+BaseScore: 3.4
+TempScore: 2.4
+count incrementd
+Iteration: 14
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:OF/RC:UR)
+BaseScore: 3.4
+TempScore: 2.5
+count incrementd
+Iteration: 15
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:OF/RC:C)
+BaseScore: 3.4
+TempScore: 2.7
+count incrementd
+Iteration: 16
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:TF/RC:UC)
+BaseScore: 3.4
+TempScore: 2.5
+count incrementd
+Iteration: 17
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:TF/RC:UR)
+BaseScore: 3.4
+TempScore: 2.6
+count incrementd
+Iteration: 18
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:TF/RC:C)
+BaseScore: 3.4
+TempScore: 2.8
+count incrementd
+Iteration: 19
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:W/RC:UC)
+BaseScore: 3.4
+TempScore: 2.6
+count incrementd
+Iteration: 20
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:W/RC:UR)
+BaseScore: 3.4
+TempScore: 2.8
+count incrementd
+Iteration: 21
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:W/RC:C)
+BaseScore: 3.4
+TempScore: 2.9
+count incrementd
+Iteration: 22
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:U/RC:UC)
+BaseScore: 3.4
+TempScore: 2.8
+count incrementd
+Iteration: 23
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:U/RC:UR)
+BaseScore: 3.4
+TempScore: 2.9
+count incrementd
+Iteration: 24
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:POC/RL:U/RC:C)
+BaseScore: 3.4
+TempScore: 3.1
+count incrementd
+Iteration: 25
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:OF/RC:UC)
+BaseScore: 3.4
+TempScore: 2.5
+count incrementd
+Iteration: 26
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:OF/RC:UR)
+BaseScore: 3.4
+TempScore: 2.7
+count incrementd
+Iteration: 27
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:OF/RC:C)
+BaseScore: 3.4
+TempScore: 2.8
+count incrementd
+Iteration: 28
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:TF/RC:UC)
+BaseScore: 3.4
+TempScore: 2.6
+count incrementd
+Iteration: 29
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:TF/RC:UR)
+BaseScore: 3.4
+TempScore: 2.8
+count incrementd
+Iteration: 30
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:TF/RC:C)
+BaseScore: 3.4
+TempScore: 2.9
+count incrementd
+Iteration: 31
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:W/RC:UC)
+BaseScore: 3.4
+TempScore: 2.8
+count incrementd
+Iteration: 32
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:W/RC:UR)
+BaseScore: 3.4
+TempScore: 2.9
+count incrementd
+Iteration: 33
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:W/RC:C)
+BaseScore: 3.4
+TempScore: 3.1
+count incrementd
+Iteration: 34
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:U/RC:UC)
+BaseScore: 3.4
+TempScore: 2.9
+count incrementd
+Iteration: 35
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:U/RC:UR)
+BaseScore: 3.4
+TempScore: 3.1
+count incrementd
+Iteration: 36
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:F/RL:U/RC:C)
+BaseScore: 3.4
+TempScore: 3.2
+count incrementd
+Iteration: 37
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:OF/RC:UC)
+BaseScore: 3.4
+TempScore: 2.7
+count incrementd
+Iteration: 38
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:OF/RC:UR)
+BaseScore: 3.4
+TempScore: 2.8
+count incrementd
+Iteration: 39
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:OF/RC:C)
+BaseScore: 3.4
+TempScore: 3.0
+count incrementd
+Iteration: 40
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:TF/RC:UC)
+BaseScore: 3.4
+TempScore: 2.8
+count incrementd
+Iteration: 41
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:TF/RC:UR)
+BaseScore: 3.4
+TempScore: 2.9
+count incrementd
+Iteration: 42
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:TF/RC:C)
+BaseScore: 3.4
+TempScore: 3.1
+count incrementd
+Iteration: 43
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:W/RC:UC)
+BaseScore: 3.4
+TempScore: 2.9
+count incrementd
+Iteration: 44
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:W/RC:UR)
+BaseScore: 3.4
+TempScore: 3.1
+count incrementd
+Iteration: 45
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:W/RC:C)
+BaseScore: 3.4
+TempScore: 3.2
+count incrementd
+Iteration: 46
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:U/RC:UC)
+BaseScore: 3.4
+TempScore: 3.1
+count incrementd
+Iteration: 47
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:U/RC:UR)
+BaseScore: 3.4
+TempScore: 3.2
+count incrementd
+Iteration: 48
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:P/E:H/RL:U/RC:C)
+BaseScore: 3.4
+TempScore: 3.4
+count incrementd
+Iteration: 49
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:OF/RC:UC)
+BaseScore: 4.9
+TempScore: 3.3
+count incrementd
+Iteration: 50
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:OF/RC:UR)
+BaseScore: 4.9
+TempScore: 3.4
+count incrementd
+Iteration: 51
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:OF/RC:C)
+BaseScore: 4.9
+TempScore: 3.6
+count incrementd
+Iteration: 52
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:TF/RC:UC)
+BaseScore: 4.9
+TempScore: 3.4
+count incrementd
+Iteration: 53
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:TF/RC:UR)
+BaseScore: 4.9
+TempScore: 3.6
+count incrementd
+Iteration: 54
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:TF/RC:C)
+BaseScore: 4.9
+TempScore: 3.7
+count incrementd
+Iteration: 55
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:W/RC:UC)
+BaseScore: 4.9
+TempScore: 3.6
+count incrementd
+Iteration: 56
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:W/RC:UR)
+BaseScore: 4.9
+TempScore: 3.8
+count incrementd
+Iteration: 57
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:W/RC:C)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 58
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:U/RC:UC)
+BaseScore: 4.9
+TempScore: 3.7
+count incrementd
+Iteration: 59
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:U/RC:UR)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 60
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:U/RL:U/RC:C)
+BaseScore: 4.9
+TempScore: 4.2
+count incrementd
+Iteration: 61
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:OF/RC:UC)
+BaseScore: 4.9
+TempScore: 3.5
+count incrementd
+Iteration: 62
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:OF/RC:UR)
+BaseScore: 4.9
+TempScore: 3.6
+count incrementd
+Iteration: 63
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:OF/RC:C)
+BaseScore: 4.9
+TempScore: 3.8
+count incrementd
+Iteration: 64
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:TF/RC:UC)
+BaseScore: 4.9
+TempScore: 3.6
+count incrementd
+Iteration: 65
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:TF/RC:UR)
+BaseScore: 4.9
+TempScore: 3.8
+count incrementd
+Iteration: 66
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:TF/RC:C)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 67
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:W/RC:UC)
+BaseScore: 4.9
+TempScore: 3.8
+count incrementd
+Iteration: 68
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:W/RC:UR)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 69
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:W/RC:C)
+BaseScore: 4.9
+TempScore: 4.2
+count incrementd
+Iteration: 70
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:U/RC:UC)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 71
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:U/RC:UR)
+BaseScore: 4.9
+TempScore: 4.2
+count incrementd
+Iteration: 72
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:POC/RL:U/RC:C)
+BaseScore: 4.9
+TempScore: 4.4
+count incrementd
+Iteration: 73
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:OF/RC:UC)
+BaseScore: 4.9
+TempScore: 3.6
+count incrementd
+Iteration: 74
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:OF/RC:UR)
+BaseScore: 4.9
+TempScore: 3.8
+count incrementd
+Iteration: 75
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:OF/RC:C)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 76
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:TF/RC:UC)
+BaseScore: 4.9
+TempScore: 3.8
+count incrementd
+Iteration: 77
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:TF/RC:UR)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 78
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:TF/RC:C)
+BaseScore: 4.9
+TempScore: 4.2
+count incrementd
+Iteration: 79
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:W/RC:UC)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 80
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:W/RC:UR)
+BaseScore: 4.9
+TempScore: 4.2
+count incrementd
+Iteration: 81
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:W/RC:C)
+BaseScore: 4.9
+TempScore: 4.4
+count incrementd
+Iteration: 82
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:U/RC:UC)
+BaseScore: 4.9
+TempScore: 4.2
+count incrementd
+Iteration: 83
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:U/RC:UR)
+BaseScore: 4.9
+TempScore: 4.4
+count incrementd
+Iteration: 84
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:F/RL:U/RC:C)
+BaseScore: 4.9
+TempScore: 4.7
+count incrementd
+Iteration: 85
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:OF/RC:UC)
+BaseScore: 4.9
+TempScore: 3.8
+count incrementd
+Iteration: 86
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:OF/RC:UR)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 87
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:OF/RC:C)
+BaseScore: 4.9
+TempScore: 4.3
+count incrementd
+Iteration: 88
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:TF/RC:UC)
+BaseScore: 4.9
+TempScore: 4.0
+count incrementd
+Iteration: 89
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:TF/RC:UR)
+BaseScore: 4.9
+TempScore: 4.2
+count incrementd
+Iteration: 90
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:TF/RC:C)
+BaseScore: 4.9
+TempScore: 4.4
+count incrementd
+Iteration: 91
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:W/RC:UC)
+BaseScore: 4.9
+TempScore: 4.2
+count incrementd
+Iteration: 92
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:W/RC:UR)
+BaseScore: 4.9
+TempScore: 4.4
+count incrementd
+Iteration: 93
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:W/RC:C)
+BaseScore: 4.9
+TempScore: 4.7
+count incrementd
+Iteration: 94
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:U/RC:UC)
+BaseScore: 4.9
+TempScore: 4.4
+count incrementd
+Iteration: 95
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:U/RC:UR)
+BaseScore: 4.9
+TempScore: 4.7
+count incrementd
+Iteration: 96
+Vector: (AV:L/AC:H/Au:M/C:P/I:P/A:C/E:H/RL:U/RC:C)
+BaseScore: 4.9
+TempScore: 4.9
+count incrementd
+Iteration: 97
+Vector: (AV:L/AC:H/Au:M/C:P/I:C/A:P/E:U/RL:OF/RC:UC)
+BaseScore: 4.9
+TempScore: 3.3
+count incrementd
+Iteration: 98
+Vector: (AV:L/AC:H/Au:M/C:P/I:C/A:P/E:U/RL:OF/RC:UR)
+BaseScore: 4.9
+TempScore: 3.4
+count incrementd
+Iteration: 99
+Vector: (AV:L/AC:H/Au:M/C:P/I:C/A:P/E:U/RL:OF/RC:C)
+BaseScore: 4.9
+TempScore: 3.6
+count incrementd
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting ChromeDriver 123.0.6312.122 (31f8248cdd90acbac59f700b603fed0b5967ca50-refs/branch-heads/6312@{#824}) on port 2355
+Starting ChromeDriver 124.0.6367.91 (51df0e5e17a8b0a4f281c1665dbd1b8a0c6b46af-refs/branch-heads/6367@{#984}) on port 7331
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Apr 14, 2024 11:41:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 123
-Apr 14, 2024 11:41:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+Apr 27, 2024 5:24:46 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 124
+Apr 27, 2024 5:24:46 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
 WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.9.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
